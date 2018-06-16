@@ -45,3 +45,17 @@ and investor deliverables.
 8. Property management firms & Asset management firms can now utilize one of these
 three formats to pull the key data elements as soon as they are generated and no one has to read a lease agreement
 ever again.
+
+## Information Requirements
+
+### Information Inputs
+
+1. All inputs come directly from the command prompt, inputted at the onset of lease agreement.
+
+### Information Outputs
+
+1. Report (Command-Line)
+2. 'Abstract.csv' file containing key data elements of lease agreement
+3. 'Restful API' or 'JSON API' key data elements will be stored in an API which firms could call into their respective systems.
+
+## Technology Requirements
