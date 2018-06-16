@@ -59,3 +59,19 @@ ever again.
 3. 'Restful API' or 'JSON API' key data elements will be stored in an API which firms could call into their respective systems.
 
 ## Technology Requirements
+
+### APIs and Web Service Requirements
+
+This solution will not need to call to any API's or web services to get data, however I would like to store the data input through
+the command prompt to an API, which in theory could be called by someone else.
+
+### Python Package Requirements
+
+The application does not require any third-party packages except 'pytest' for testing purposes.
+
+The application does however make extensive use of the 'os', 'csv' , 'json' , and 'datetime' modules.
+
+### Hardware Requirements
+
+The application will be running on a local machine. However I would like the results that get stored in the API to be available on a public server.
+
