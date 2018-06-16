@@ -37,11 +37,10 @@ and investor deliverables.
 1. Same step 1
 2. At this stage when the terms are sent to legal they are input via a front end UI
 (command line for the sake of this project)
-3. Once input the user would click "Generate", the solution organizes the data into 
-three different formats.
-4. The first format is a clean output (command line output for this project)
-5. The second format is putting all these terms into a .csv file
-6. The third format is putting all these terms into an API
+3. Once input the user would click "Generate", the solution organizes the data into three different formats: 
+    + Clean report output (command line output for this project)
+    + .CSV File
+    + Restful or JSON API
 7. The lawyers can use one of the 3 outputs to still generate a lease agreement
 8. Property management firms & Asset management firms can now utilize one of these
 three formats to pull the key data elements as soon as they are generated and no one has to read a lease agreement
