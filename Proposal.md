@@ -4,5 +4,7 @@
 
 ### Primary User(s)
 
-Input User: Property Management Firm's analysts                 
-Receiving User: Asset Management Systems (could be in-house or 3rd party)
+Input User: Property Management Firm ( Cushman & Wakefield, CBRE, etc.)              
+Receiving User: Asset Management Firm (Brookfield, Blackstone, Heitman, etc.)
+
+
