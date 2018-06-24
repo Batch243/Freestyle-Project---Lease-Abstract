@@ -7,7 +7,7 @@ import requests
 import datetime
 
 def menu(username="batch243", lease_count=30):
-    # this is a multi-line string, also using preceding `f` for string interpolation
+
     menu = f"""
 -----------------------------------
 LEASE ABSTRACT
@@ -22,7 +22,7 @@ There are {lease_count} leases in the database.
     'Update'  | Edit an existing lease.
     'Delete ' | Delete an existing lease.
     'Reset'   | Reset CSV File
-Please select an operation: """ # end of multi- line string. also using string interpolation
+Please select an operation: """
     return menu
 
 def lease_not_found():
@@ -182,3 +182,20 @@ def run() :
 ###DEFINE WHAT TO RUN FROM COMMAND LINE###
 if __name__ == "__main__":
     run()
+
+#def read_leases_from_file(filename="leases.csv"):
+    #filepath = os.path.join(os.path.dirname(__file__), "db", filename)
+    #print(f"READING LEASES FROM FILE: '{filepath}'")
+    #leases = []
+#
+#    with open(filepath, "r") as csv_file:
+#        reader = csv.DictReader(csv_file)
+#        for row in reader:
+#            json.dumps(dict(row))
+    #return leases
+
+#jsonfile.write(leases)
+
+#reader = csv.DictReader( csvfile, fieldnames)
+#out = json.dumps( [ row for row in reader ] )
+#jsonfile.write(out)
